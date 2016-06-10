@@ -1,0 +1,123 @@
+@charset "utf-8";
+
+p {
+	margin: 0;
+	font-size: .88em; /*14px*/
+	padding-bottom: 10px;
+}
+h1 {
+	font-size: 1.50em; /*24px*/
+	margin: 0;
+	padding-bottom: 10px;
+}
+h2 {
+	margin: 0;
+	color: #F28C22;
+	font-size: 1.13em; /*18px*/
+	padding-top: 5px;
+}
+a {
+	color: #F28C22;
+}
+a img {
+	border: none;
+}
+ul {
+	margin: 0;
+	padding-bottom: 10px;
+	font-size: .88em; /*14px*/
+}
+.clear {
+	clear: both;
+}
+html {
+	height: 100%;
+}
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 100%;
+	height: 100%;
+}
+#header {
+	background-color: #000000;
+	height: 100px;
+}
+#header img {
+	padding: 12px 0 0 40px;
+	width: 600px;
+}
+#nav {
+	background: url('../images/nav.jpg') repeat-y;
+	padding-left: 60px;
+}
+#nav ul {
+	margin: 0;
+	padding: 10px 0px 5px 0px;
+	list-style: none;
+}
+#nav li {
+	display: inline;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+#nav a {
+	text-decoration: none;
+	color: #FFFFFF;
+	font-size: 1.14em; /*16px*/
+}
+
+#nav a.active {color: #F28C22;}
+
+#nav a:hover {
+	color: #F28C22;
+}
+
+#main {
+	background: url('../images/main.jpg') no-repeat top left;
+	padding-left: 56px;
+	padding-bottom: 20px;
+	min-height: 70%;
+}
+#photo-strip {
+	height: 118px;
+	background: url('../images/filmstrip-2016-2.jpg') repeat-x;
+}
+#content {
+	padding-left: 10px;
+	float: left;
+	width: 655px;
+	padding-top: 20px;
+}
+#sidebar {
+	float: left;
+	width: 205px;
+	padding-left: 20px;
+	padding-top: 60px;
+}
+#box-top {
+	background: url('../images/box-top.jpg') no-repeat;
+	height: 15px;
+}
+#box-content {
+	background: url('../images/box-content.jpg') repeat-y;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: center;
+	color: #FFFFFF;
+}
+#box-content a {
+	color: #FFFFFF;
+}
+#box-bottom {
+	background: url('../images/box-bottom.jpg') no-repeat;
+	height: 15px;
+}
+#footer {
+	padding-top: 20px;
+	padding-left: 10px;
+	font-size: .63em; /*10px*/
+	text-align: right;
+	width: 890px;
+}

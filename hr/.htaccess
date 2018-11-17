@@ -1,0 +1,3 @@
+AuthName Title
+AuthUserFile D:\WWWRoot\chalk2.com\www\hr\.htpasswd
+Require valid-user 
